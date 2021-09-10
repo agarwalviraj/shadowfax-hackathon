@@ -1,0 +1,28 @@
+[
+    {"id":1,
+    "name":"Bhurva Sharma",
+    "description":"UI/UX design, frontend,contentand chronic cookie baker.",
+    "url": "bhurva"
+},
+    {"id":2,
+    "name":"Kartikey Mahawar",
+    "description":"App developer with a solution for anything and excellent comic timing. ",
+    "url":"src/assets/kar.jpeg"
+},
+    {"id":3,
+    "name":"Parth Katiyar",
+    "description":"Quick witted, extra calm ML-wiz with a dash of humour.",
+    "url":""
+},
+    {"id":4,
+    "name":"Vedant Singh",
+    "description":"Sleep deprived front end and design guy who can bring any idea to life.",
+    "url":"src/assets/vedant.jpeg"
+},
+    {"id":5,
+    "name":"Viraj Agarwal",
+    "description":"Web dev Guru who agrees to approximately anything",
+    "url":"src/assets/viraj.jpeg"
+}
+
+]

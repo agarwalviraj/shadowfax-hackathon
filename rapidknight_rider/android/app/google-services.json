@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "543911431190",
+    "firebase_url": "https://rapidknight-a06d4-default-rtdb.firebaseio.com",
+    "project_id": "rapidknight-a06d4",
+    "storage_bucket": "rapidknight-a06d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543911431190:android:cd1a56c501fd914faa3937",
+        "android_client_info": {
+          "package_name": "com.caffeineOverflow.rapid_knight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bZHMi0_dQJbMa4FPPXhtmyHp4lnQPGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543911431190:android:677dfd6404187aa4aa3937",
+        "android_client_info": {
+          "package_name": "com.caffeineOverflow.rapidknight_rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bZHMi0_dQJbMa4FPPXhtmyHp4lnQPGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543911431190:android:a1c39e11539b06daaa3937",
+        "android_client_info": {
+          "package_name": "com.caffeineOverflow.rapidknight_shopkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bZHMi0_dQJbMa4FPPXhtmyHp4lnQPGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543911431190-sddtrtnek281n2u23hv2g66r94q39rpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

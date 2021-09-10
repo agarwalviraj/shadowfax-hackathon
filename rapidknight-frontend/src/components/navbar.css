@@ -1,0 +1,270 @@
+.logo {
+  width: 12rem;
+  height: 7rem;
+  margin-left: 2rem;
+  margin-top: -1rem;
+  min-width: 3rem;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  z-index: 3;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.basket {
+  margin-left: 550px;
+  font-size: 20px;
+  margin-top: 1.8rem;
+  color: rgb(47, 47, 47);
+}
+
+.link1 {
+  overflow: hidden;
+}
+
+.link2 {
+  text-decoration: none;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 20px;
+  overflow: hidden;
+  width: 10rem;
+  display: block;
+  margin-top: 1.8rem;
+  margin-left: 50px;
+  color: rgb(47, 47, 47);
+}
+
+.user {
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 2rem;
+  color: rgb(47, 47, 47);
+  display: inline;
+  width: 12rem;
+}
+.market {
+  width: 200px;
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.user-info {
+  display: flex;
+  margin-right: 1.8rem;
+}
+
+.link5 {
+  text-decoration: none;
+  margin-top: 1.8rem;
+}
+
+.welco {
+  width: 25px;
+  height: 25px;
+  margin-top: 1.8rem;
+  margin-left: 1rem;
+}
+
+.we {
+  font-size: 18px;
+  color: rgb(29, 29, 29);
+  margin-top: 1.8rem;
+  margin-left: 1rem;
+}
+
+.side-m {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1.8rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .logo {
+    width: 9rem;
+    height: 7rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+
+  .navbar {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+  }
+
+  .basket {
+    /* margin-left: 4px; */
+    display: none;
+    font-size: 20px;
+    margin-top: 1.8rem;
+    color: rgb(47, 47, 47);
+  }
+
+  .link1 {
+    overflow: hidden;
+  }
+
+  .link2 {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    overflow: hidden;
+    width: 14rem;
+    display: block;
+    margin-top: 1.8rem;
+    margin-left: 50px;
+    color: rgb(47, 47, 47);
+  }
+
+  .user {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 2rem;
+    color: rgb(47, 47, 47);
+    display: inline;
+    width: 12rem;
+  }
+  .market {
+    width: 200px;
+    display: block;
+  }
+
+  superscript {
+    color: rgb(255, 45, 87);
+  }
+
+  .link5 {
+    text-decoration: none;
+    margin-top: 1.8rem;
+  }
+
+  .welco {
+    width: 16px;
+    height: 16px;
+    margin-top: 2rem;
+    /* margin-left: 12rem; */
+  }
+
+  .we {
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    margin-top: 1.6rem;
+    margin-left: 1rem;
+  }
+  .logo-container {
+    display: flex;
+  }
+  .user-info {
+    display: flex;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .logo {
+    width: 100%;
+    height: 6rem;
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+  }
+
+  .navbar {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+  }
+
+  .basket {
+    /* margin-left: 4px; */
+    display: none;
+    font-size: 20px;
+    margin-top: 1.8rem;
+    color: rgb(47, 47, 47);
+  }
+
+  .link1 {
+    overflow: hidden;
+  }
+
+  .link2 {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+    overflow: hidden;
+    width: 14rem;
+    display: block;
+    margin-top: 1.8rem;
+    margin-left: 50px;
+    color: rgb(47, 47, 47);
+  }
+
+  .user {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 2rem;
+    color: rgb(47, 47, 47);
+    display: inline;
+    width: 12rem;
+  }
+  .market {
+    width: 100px;
+    display: block;
+    margin-top: 2rem;
+  }
+
+  superscript {
+    color: rgb(255, 45, 87);
+  }
+
+  .link5 {
+    text-decoration: none;
+    margin-top: 1.8rem;
+  }
+
+  .welco {
+    width: 30px;
+    height: 16px;
+    margin-top: 2rem;
+    /* margin-left: 12rem; */
+  }
+
+  .we {
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    margin-top: 1.6rem;
+    margin-left: 1rem;
+    display: none;
+  }
+  .logo-container {
+    display: flex;
+  }
+  .user-info {
+    display: flex;
+    margin-right: 1rem;
+  }
+  .place {
+    font-size: 14px;
+  }
+}

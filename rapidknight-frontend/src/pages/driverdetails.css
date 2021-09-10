@@ -1,0 +1,153 @@
+.track {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(63, 63, 63);
+}
+
+.track1 {
+  color: #e84325;
+}
+
+.your {
+  font-size: 22px;
+  text-align: center;
+}
+
+.RiderCard {
+  margin-left: 25rem;
+  width: 30rem;
+  height: 13rem;
+  background-color: #ffa244;
+  margin-top: 2rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgba(177, 177, 177, 0.397);
+}
+
+.viraj {
+  text-align: center;
+  margin-top: 8px;
+  font-size: larger;
+  width: 200px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 8px;
+  margin-left: 140px;
+}
+
+.detail-container {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.detail1 {
+  color: rgb(246, 246, 246);
+  text-align: left;
+  font-size: 24px;
+}
+
+.driver-track {
+  padding-top: 2rem;
+  padding-left: 17rem;
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .track {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(63, 63, 63);
+  }
+  .your {
+    font-size: 16px;
+    text-align: center;
+  }
+  .RiderCard {
+    margin-left: 2rem;
+    width: 82%;
+    height: 10rem;
+    background-color: #ffa244;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(177, 177, 177, 0.397);
+  }
+
+  .viraj {
+    text-align: center;
+    margin-top: 8px;
+    font-size: larger;
+    width: 200px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    margin-left: 20%;
+  }
+  .driver-track {
+    padding-top: 2rem;
+    padding-left: 5%;
+    width: 90%;
+  }
+
+  .detail-container {
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+
+  .detail1 {
+    color: rgb(246, 246, 246);
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .track {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 34px;
+    color: rgb(63, 63, 63);
+  }
+  .your {
+    font-size: 16px;
+    text-align: center;
+  }
+  .RiderCard {
+    margin-left: 25%;
+    width: 55%;
+    height: 10rem;
+    background-color: #ffa244;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(177, 177, 177, 0.397);
+  }
+
+  .viraj {
+    text-align: center;
+    margin-top: 8px;
+    font-size: larger;
+    width: 200px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    margin-left: 20%;
+  }
+  .driver-track {
+    padding-top: 2rem;
+    padding-left: 5%;
+    width: 90%;
+  }
+
+  .detail-container {
+    margin-top: 18px;
+    margin-left: 4%;
+  }
+
+  .detail1 {
+    color: rgb(246, 246, 246);
+    text-align: left;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,178 @@
+.bg-img-container {
+  display: flex;
+  height: 90vh;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.bgimg {
+  width: 108%;
+  height: auto;
+  position: absolute;
+  z-index: -10;
+}
+
+.jim {
+  color: #e84325;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: poppins;
+  font-size: 44px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.navbar1 {
+  height: 4.5rem;
+}
+
+.dash2 {
+  display: flex;
+  height: 0.3rem;
+  width: 4.5rem;
+  background-color: #535353;
+  margin-top: 0.1rem;
+  margin-left: 47%;
+  border-radius: 10px;
+  margin-top: 0.4rem;
+}
+.container2 {
+  height: 100%;
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 4rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.images {
+  border-radius: 4px;
+  margin: 12px;
+  width: 100%;
+  height: auto;
+}
+.images:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 12px 2px rgba(134, 134, 133, 0.26);
+  transform: scale(1.2);
+}
+
+.intro {
+  font-family: poppins;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(46, 46, 46);
+  margin-top: 1rem;
+}
+.image-box {
+  margin-top: 3rem;
+}
+
+.off {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #e84325;
+}
+.head {
+  text-align: center;
+  font-size: medium;
+  color: rgb(39, 39, 39);
+}
+
+.deal {
+  text-align: center;
+  font-size: 44px;
+  margin-top: 0rem;
+  color: #e84325;
+}
+
+.search1 {
+  position: absolute;
+  z-index: 4;
+  height: 400px;
+}
+
+.container4 {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 6.5rem;
+}
+
+.system {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #535353;
+  margin-top: 2rem;
+}
+
+.know {
+  color: #e84325;
+}
+.courier {
+  margin-top: 2rem;
+  width: 70%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.tom {
+  width: 100vw;
+  height: 100vh;
+}
+
+.teams {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 2rem;
+  color: #535353;
+}
+
+.se {
+  margin-top: 6rem;
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .bg-img-container {
+    display: flex;
+    height: 50vh;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  .bgimg {
+    width: 250%;
+  }
+  .deal {
+    font-size: 32px;
+  }
+  .dash2 {
+    width: 4rem;
+    margin-left: 40%;
+  }
+  .images {
+    margin: 10px;
+  }
+
+  .intro {
+    font-size: 14px;
+  }
+  .system {
+    font-size: 32px;
+  }
+  .courier {
+    width: 90vw;
+    margin-left: 0px;
+  }
+
+  .teams {
+    font-size: 32px;
+  }
+}

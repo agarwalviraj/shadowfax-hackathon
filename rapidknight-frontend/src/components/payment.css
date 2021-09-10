@@ -1,0 +1,101 @@
+.payment-x {
+  position: fixed;
+  z-index: 1000000;
+  /* overflow: auto; */
+  /* border-style: solid; */
+  width: 100%;
+  overflow-y: none;
+  height: 100%;
+  top: 0;
+  background-color: rgba(241, 241, 241, 0.863);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  width: 32vw;
+  height: 30vh;
+  background-color: #ec8b2c;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.la {
+  margin-left: 1rem;
+}
+
+.card-i {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  border-radius: 8px;
+  height: 2rem;
+}
+.cvv {
+  display: flex;
+  flex-direction: column;
+}
+
+.cvv2 {
+  width: 5rem;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  border-radius: 8px;
+  height: 2rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+.cvv3 {
+  width: 10rem;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  border-radius: 8px;
+  height: 2rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.la2 {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.choose {
+  font-size: 22px;
+  color: rgb(37, 37, 37);
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .card-container {
+    width: 85vw;
+    height: 27vh;
+    background-color: #ec8b2c;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .card-container {
+    width: 50vw;
+    height: 20vh;
+    background-color: #ec8b2c;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+}

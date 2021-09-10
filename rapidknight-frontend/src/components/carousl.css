@@ -1,0 +1,58 @@
+.bhurva {
+  display: flex;
+
+  margin-top: 2rem;
+  /* background-color: rgb(41, 100, 81); */
+}
+
+.kartikey {
+  text-align: left;
+  margin-top: 0px;
+}
+.parth {
+  text-align: left;
+}
+
+.bhurva1 {
+  display: flex;
+  margin-left: 25%;
+  flex-direction: row;
+}
+.bhurva2 {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.photu {
+  height: 150px;
+  margin-top: -2rem;
+}
+
+.photu2 {
+  height: 100px;
+  margin-top: 0.5rem;
+
+  /* margin-left:  */
+}
+
+.mari {
+  margin-left: 100px;
+}
+
+@media screen and (min-width: 340px) and (max-widh: 600px) {
+  .bhurva1 {
+    display: flex;
+    margin-left: 2px;
+    flex-direction: row;
+  }
+  .photu {
+    height: 50px;
+    margin-top: -2rem;
+    margin-left: -2rem;
+  }
+
+  .photu2 {
+    visibility: hidden;
+  }
+}

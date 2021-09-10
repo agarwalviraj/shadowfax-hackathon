@@ -1,0 +1,41 @@
+.link {
+  text-decoration: none;
+}
+
+.h2 {
+  margin-top: 4rem;
+}
+
+.accnt {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 2rem;
+}
+.rej-2 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.link10 {
+  text-decoration: none;
+}
+
+.vector {
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

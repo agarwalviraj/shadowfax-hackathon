@@ -1,0 +1,236 @@
+.cards {
+  background-color: rgba(207, 207, 207, 0.164);
+  margin-top: 1.2rem;
+  margin-left: 0rem;
+  border: solid;
+  border-color: rgb(168, 168, 168);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 154px;
+  width: 120px;
+}
+.cards:hover {
+  transform: scale(1.1);
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  height: 80px;
+  width: 100%;
+}
+
+.desc {
+  width: 120px;
+  font-size: 10px;
+  text-align: center;
+
+  font-weight: lighter;
+}
+
+.tit {
+  text-align: center;
+  color: #ff7f50;
+  width: 120px;
+  font-size: 15px;
+}
+.card-pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.add {
+  background-color: #c2aa93;
+  height: 1.8rem;
+  border-radius: 5px;
+  font-family: poppins;
+  color: aliceblue;
+  font-size: 14px;
+  border: none;
+  margin-top: 14px;
+  margin-left: 16px;
+  min-width: 7.5rem;
+}
+
+.add:hover {
+  background-color: #faa652;
+  cursor: pointer;
+}
+
+/* search cards css */
+.cards2 {
+  background-color: rgba(207, 207, 207, 0.164);
+  margin-top: 1.2rem;
+  margin-left: 0rem;
+  border: solid;
+  border-color: rgb(168, 168, 168);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 135px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.cards2:hover {
+  transform: scale(1.1);
+}
+
+.cards-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img12 {
+  height: 100%;
+  width: 15%;
+}
+
+.desc2 {
+  font-size: 10px;
+  text-align: left;
+
+  font-size: 18px;
+}
+
+.tit2 {
+  text-align: left;
+  color: coral;
+
+  font-size: 24px;
+}
+.card-pro2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 4rem;
+  width: 90vw;
+}
+
+.car2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+  .card-pro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.2rem;
+  }
+  .cards2 {
+    background-color: rgba(207, 207, 207, 0.164);
+    margin-top: 1.2rem;
+    margin-left: 0rem;
+    border: solid;
+    border-color: rgb(168, 168, 168);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 140px;
+  }
+  .tit2 {
+    text-align: center;
+    color: #ff7f50;
+    width: 120px;
+    font-size: 14px;
+    overflow: hidden;
+  }
+  .img12 {
+    height: 100px;
+    width: 100%;
+  }
+  .car2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .desc2 {
+    width: 120px;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: lighter;
+  }
+  .dif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .cards2 {
+    background-color: rgba(207, 207, 207, 0.164);
+    margin-top: 1.2rem;
+    margin-left: 0rem;
+    border: solid;
+    border-color: rgb(168, 168, 168);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 120px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .cards-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img12 {
+    height: 100%;
+    width: 15%;
+  }
+
+  .desc2 {
+    font-size: 10px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 18px;
+  }
+
+  .tit2 {
+    text-align: left;
+    color: coral;
+    overflow: hidden;
+    font-size: 24px;
+  }
+  .card-pro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 2rem;
+    width: 90vw;
+  }
+
+  .car2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+}
